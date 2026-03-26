@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Ansible / misc
+*.retry
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
